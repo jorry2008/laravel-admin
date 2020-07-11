@@ -70,7 +70,7 @@ class Tools implements Renderable
      */
     public function prepend($tool)
     {
-        $this->prepends->push($tool);
+        $this->prepends->prepend($tool);
 
         return $this;
     }
